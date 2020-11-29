@@ -97,7 +97,7 @@ html, body {
     margin: 0px 0px 20px 0px;
 }/* done */
 
-@media(max-width: 880px){
+@media(max-width: 900px){
     body.lock{
         overflow: hidden;
     }
