@@ -65,6 +65,9 @@ html, body {
     max-width: 100%;
     display: block;
 }/* done */
+.name_site{
+    display: none;
+}
 .header_burger{
     display: none;
 }/* done */
