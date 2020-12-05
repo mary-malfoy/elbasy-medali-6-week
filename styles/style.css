@@ -202,3 +202,34 @@ html, body {
 .header_body{
     align-items: center;
 }
+
+
+.footer {
+    height: 80px;
+    background-color: black;
+    width: 100%;
+    /* position: relative; */
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+.footer-author {
+    font-size: 12px;
+    color: rgba(253, 223, 52, 0.726);
+    text-align: center;
+    margin: auto;
+
+}
+.footer_list>li {
+    list-style: none;
+    margin-right: 20px;
+    /* position: relative; */
+    float: right;
+}
+.footer_list {
+    margin: auto;
+}
+.footer_image {
+    width: 30px;
+    height: 30px;
+}
