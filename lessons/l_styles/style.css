@@ -13,6 +13,7 @@ html, body {
     height: 100%;
     font-family: 'Montserrat', sans-serif;
     background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    margin: 0px;
 }
 /* done */
 
@@ -205,4 +206,56 @@ html, body {
 }
 .header_body{
     align-items: center;
+}
+.topics {
+    width: 200px;
+    margin-top: 20px;
+    display: block;
+    float: left;
+}
+.folder {
+    margin-bottom: 30px;
+}
+
+.topic_names, .course_list {
+    /* list-style: none; */
+}
+.folder_name, .course_name {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+    font-weight: bold;
+}
+.files {
+    list-style: none;
+    /* display: none; */
+}
+.file_name {
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+}
+.courses{
+    width: 200px;
+    margin-top: 20px;
+    display: block;
+    float: right;
+}
+.content {
+    margin: 78px 204px;
+    display: block;
+    border: 2px solid black;
+    padding: 20px;
+}
+.container {
+    float: none;
+}
+.content_header {
+    text-align: center;
+    padding: 20px;
+}
+.course_list {
+    list-style-image: url(https://drive.google.com/file/d/1B4F_Bjt9BH2U6skgReIOjromWD6ey73g/view?usp=sharing);
 }
